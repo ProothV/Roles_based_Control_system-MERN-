@@ -1,0 +1,28 @@
+server/
+├── src/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── auth.js
+│   │   ├── roles.js
+│   │   ├── users.js
+│   │   ├── enterprises.js
+│   │   ├── employees.js
+│   │   ├── products.js
+│   │   └── dashboards.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── role.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── roles.js
+│   │   ├── users.js
+│   │   ├── enterprises.js
+│   │   ├── employees.js
+│   │   ├── products.js
+│   │   └── dashboards.js
+│   └── utils/
+│       └── error.js
+├── .env
+├── package.json
+└── server.js
